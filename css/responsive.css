@@ -33,5 +33,27 @@
         width: 100%;
         padding: 0;
     }
-    
+
+}
+
+/* gatsby section  */
+@media only screen and (max-width: 776px){
+    .gatsby-grid{
+        grid-template-columns: auto;
+        margin: 88px 0;
+        padding: 0 24px;
+    }
+    .grid-content{
+        display: inline-block;
+    }
+}
+
+/* jamstack section  */
+@media only screen and (max-width: 776px){
+    .jamstack-main{
+        grid-template-columns: auto;
+    }
+    .jamstack-submain{
+        padding: 25px 0;
+    }
 }

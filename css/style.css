@@ -148,3 +148,101 @@ a.button:hover{
     margin: 32px 0 0;
 }
 
+
+/* gatsby section start here  */
+
+.gatsby{
+    padding: 100px 0;
+}
+.gatsby-title{
+    text-align: center;
+}
+.gatsby-title h2{
+    margin: 0 0 40px;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+p.gatsby-subtitle{
+    margin: 16px 0 0;
+    font-size: 18px;
+    color: #56565F;
+}
+/* grid  */
+.gatsby-grid{
+    margin: 88px 34px 40px;
+    padding: 0 32px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-gap: 35px 50px;
+}
+.grid-content{
+    display: flex;
+}
+.blazing-fast{
+    padding: 0 15px;
+}
+.blazing-fast h2{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #2f2f44;
+}
+p.blazing-title{
+    font-size: 16px;
+    color: #56565F;
+    line-height: 28px;
+    letter-spacing: .3px;
+}
+
+
+/* JAMSTACK SECTION START HERE  */
+
+.jamstack{
+    padding: 150px 0;
+    background-color: #FAFAFA;
+}
+.jamstack-title{
+    margin: 0 0 50px;
+}
+.jamstack-description{
+    display: flex;
+}
+span.ux{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+    line-height: 40px;
+}
+.jamstack-title h1{
+    font-size: 48px;
+    margin-bottom: 15px;
+    color: #000000;
+    letter-spacing: 0.4px;
+}
+.jamstack-title h3{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+.jamstack-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+}
+.jamstack-submain{
+    padding: 0 15px;
+}
+.jamstack-para p{
+    margin: 12px 0 0;
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+}
+.jamstack__d-title h2{
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    margin: 0 0 0 12px;
+    font-weight: 600;
+}
