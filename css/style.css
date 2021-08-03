@@ -18,6 +18,7 @@ body{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 header .row {
@@ -245,4 +246,107 @@ span.ux{
     font-family: 'poppins', sans-serif;
     margin: 0 0 0 12px;
     font-weight: 600;
+}
+
+/* headless section start here  */
+
+.headless{
+    padding: 160px 0;
+    text-align: center;
+}
+.headless-btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headless-title{
+    margin: 0 0 24px;
+}
+.headless-title span{
+    line-height: 30px;
+    font-size: 18px;
+    color: #2b2b41;
+    font-weight: 600;
+}
+.headless-title  h1{
+    font-size: 49px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+/* .btn-getStart a{
+    padding: 14px 60px 14px 15px;
+    background-color: #2B9EBC;
+    color: #fff;
+    border-radius: 5px;
+} */
+/* .btn-getStart{
+    margin: 32px 0;
+} */
+/* 
+.btn-about{
+    margin: 35px 40px;
+
+}
+.btn-about a{
+    color:#71717A;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.headless-btn a::after{
+    content: '\2192';
+    position: absolute;
+    left: 515px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn-about a::after{
+    content: '\2192';
+    position: absolute;
+    left: 655px;
+    color: #71717A;
+    font-size: 16px;
+    font-weight: 700;
+} */
+
+.btn-getStart {
+    width: 155px;
+    height: 45px;
+    background: #2B9EBC;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.btn-getStart:hover{
+    background: #023047;
+    transition: .5s ease-in-out;
+}
+.btn-getStart a{
+    display: flex;
+    position: relative;
+    display: block;
+}
+.btn-getStart a::after{
+    position: absolute;
+    content: '\2192';
+    padding-left: 10px;
+}
+.btn-getStart a:hover::after{
+    margin-left: 15px;
+    color: #fff;
+    transition: .5s ease-in-out;
+}
+.btn-about{
+    margin: 15px 15px 15px 60px;
+    width: 155px;
+    height: 45px;
+}
+.btn-about a{
+    color: #71717A;
+    display: block;
+}
+.btn-about a::after{
+    content: '\2192';
+    padding-left: 10px;
 }

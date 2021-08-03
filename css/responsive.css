@@ -31,7 +31,7 @@
     }
     .container{
         width: 100%;
-        padding: 0;
+        padding: 0 16px;
     }
 
 }
@@ -56,4 +56,54 @@
     .jamstack-submain{
         padding: 25px 0;
     }
+}
+
+/* headless section  */
+@media only screen and (max-width: 850px){
+    .headless-title  h1{
+        font-size: 35px;
+    }
+    .hero-title h1{
+        font-size: 40px;
+        letter-spacing: .2px;
+    }
+    .gatsby-title h2{
+        font-size: 35px;
+    }
+    .jamstack-title h1{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 650px){
+    .headless-btn{
+        flex-direction: column;
+    }
+    .headless-btn {
+        width: 100%;
+    }
+    .btn-getStart{
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .btn-about{
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    .headless-title  h1{
+        font-size: 25px;
+    }
+    .hero-title h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .gatsby-title h2{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .jamstack-title h1{
+        font-size: 25px;
+    }
+    
 }
