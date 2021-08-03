@@ -14,10 +14,12 @@ body{
 .container {
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 24px;
 }
 a{
     text-decoration: none;
 }
+
 header .row {
     display: flex;
     justify-content: space-between;
@@ -62,8 +64,9 @@ span img{
 
 .build__area{
    display: grid;
-   grid-template-columns: 6fr 370px;
+   grid-template-columns: 1fr 370px;
 }
+                /* <-- content area --> */
 .content-area {
     padding: 24px 0 0;
     margin: 0 40px 0 0;
@@ -86,7 +89,7 @@ p.hero-para{
     padding: 20px 0;
 }
 a.button{
-    padding: 15px 35px;
+    padding: 15px 55px 15px 15px;
     background-color: rgb(43,158,188);
     color: #fff;
     border-radius: 5px;
@@ -97,8 +100,23 @@ a.button:hover{
 }
 .hero-btn{
     margin: 32px 0;
+    position: relative;
 }
-    /* img content  */
+.hero-btn::after{
+    content: '\2192';
+    position: absolute;
+    left: 190px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    top: -6px;
+}
+.hero-btn:hover::after{
+    left: 200px;
+    transition: 0.5s ease-in-out;
+}
+
+                /* <--img content --> */
 
 .img-content{
     padding: 110px 0 0;
@@ -106,5 +124,27 @@ a.button:hover{
 .img-content img{
     width: 380px;
     height: 355px;
+}
+
+
+/* company section  */
+.company{
+    margin: 80px 0;
+}
+.company-info h3{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #56565F;
+    font-weight: 500;
+}
+.company-logo img{
+    width: 165px;
+    height: 35px;
+}
+.company-logo{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-between;
+    margin: 32px 0 0;
 }
 
