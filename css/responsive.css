@@ -60,7 +60,7 @@
 
 /* headless section  */
 @media only screen and (max-width: 850px){
-    .headless-title  h1{
+    .headless-title h1{
         font-size: 35px;
     }
     .hero-title h1{
@@ -104,6 +104,12 @@
     }
     .jamstack-title h1{
         font-size: 25px;
+    }
+    .btn-getStart::before{
+        margin-left: 8rem;
+    }
+    .btn-getStart:hover::before{
+        margin-left: 9rem;
     }
     
 }
