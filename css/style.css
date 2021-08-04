@@ -329,6 +329,8 @@ span.ux{
     display: flex;
     align-items: center;
     padding-left: 10px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
 }
 .btn-getStart:hover{
     background: #023047;
@@ -354,6 +356,7 @@ span.ux{
     margin: 15px 15px 15px 60px;
     width: 155px;
     height: 45px;
+    cursor: pointer;
 }
 .btn-about a{
     color: #71717A;
@@ -441,4 +444,128 @@ p.review-para{
     font-size: 14px;
     font-family: 'poppins',sans-serif;
     color: #71717A;
+}
+
+/* footer section start here  */
+
+footer{
+    padding: 64px 0;
+}
+.contact-us{
+    width: 768px;
+    height: 646px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+.form-title{
+    text-align: center;
+}
+.form-title h3{
+    font-size: 39.5px;
+    margin: 0 0 12px;
+    color: #000000;
+}
+.form-title p{
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+    margin: 4px 0 0;
+    color: #71717A;
+}
+
+/* form area  */
+.name-email{
+    display: flex;
+    justify-content: space-between;
+}
+.form-content{
+    margin: 24px 0 0;
+    padding: 32px;
+    border: 2px solid #7e7e8315;
+    border-top: none;
+    border-radius: 5px;
+}
+#name{
+    width: 344px;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 5px;
+}
+#email{
+    width: 344px;
+    height: 40px;
+    padding: 0 16px;
+    border-radius: 5px;
+}
+.notice{
+    font-size: 14px;
+    margin: 8px 0 0;
+    font-family: 'poppins',sans-serif;
+    color: #71717A;
+}
+#txtid{
+    width: 704px;
+    height: 181px;
+    padding: 8px 16px;
+}
+.submit-button{
+    width: 100%;
+    margin-top: 10px;
+}
+/* .submit-button a{
+    color:#634141;
+    padding: 8px 16px;
+    display: block;
+    text-align: center;
+    background-color:#F4F4F5;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+} */
+.submit-btn{
+    color:#634141;
+    padding: 10px 16px;
+    text-align: center;
+    background-color:#F4F4F5;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #D4D4D8;
+}
+/* .submit-button a:hover{
+    background-color: #D4D4D8;
+} */
+label{
+    color:#333341;
+    font-size: 16px;
+    display: block;
+    margin: 0 12px 8px 0;
+    font-weight: 600;
+}
+#name , #email , #txtid {
+    border-color: rgba(148, 112, 112, 0.301);
+}
+
+/* footer text  */
+.footer-text{
+    width: 768px;
+    margin: 0 auto;
+    padding: 56px 0;
+    text-align: center;
+}
+.footer-text p{
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 35px;
+    padding: 0 30px;
+    color:#31313a;
+}
+.footer-text a{
+    color: #31313a;
+}
+.footer-text a:hover{
+    text-decoration: underline;
 }

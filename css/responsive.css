@@ -76,6 +76,9 @@
     .testimonial-title h1{
         font-size: 35px;
     }
+    .form-title h3{
+        font-size: 28px;
+    }
    
 }
 @media only screen and (max-width: 650px){
@@ -121,6 +124,9 @@
     .job-title h3{
         font-size: 20px !important;
     }
+    .form-title h3{
+        font-size: 20px;
+    }
     
 }
 
@@ -131,5 +137,21 @@
     }
     .job-title h3{
         font-size: 28px;
+    }
+}
+
+/* form section  */
+@media only screen and (max-width: 807px){
+    .name-email{
+        flex-direction: column;
+    }
+    .contact-us{
+        width: 100%;
+    }
+    #name , #email , #txtid {
+        width: 100%;
+    }
+    .footer-text{
+        width: 100%;
     }
 }
