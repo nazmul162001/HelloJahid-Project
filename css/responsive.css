@@ -155,3 +155,19 @@
         width: 100%;
     }
 }
+@media only screen and (max-width: 500px){
+    .col-left{
+        width: 5.5rem;
+    }
+    .col-left img{
+        width: 5rem;
+    }
+    .col-left img:hover{
+        width: 5.3rem;
+        height: .8rem;
+    }
+    .col-right a{
+        font-size: 16px;
+        padding: 5px;
+    }
+}
