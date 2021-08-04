@@ -63,6 +63,7 @@ header .row {
     color: #000;
     padding: 8px;
 }
+
 .col-right a:not(:first-of-type){
     margin-left: 16px;
 }
@@ -101,7 +102,7 @@ p.hero-para{
     color: rgb(30,41,59);
     padding: 20px 0;
 }
-a.button{
+/* a.button{
     padding: 15px 55px 15px 15px;
     background-color: rgb(43,158,188);
     color: #fff;
@@ -127,7 +128,40 @@ a.button:hover{
 .hero-btn:hover::after{
     left: 200px;
     transition: 0.5s ease-in-out;
-}
+} */
+
+
+.hero-btn a{
+    text-decoration:none;
+    color:#fff;
+    display:block;
+  }
+  .hero-btn{
+    position:relative;
+    width:250px;
+    height:48px;
+    background-color:#2B9EBC;
+    display:flex;
+    align-items:center;
+    padding-left:15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition:0.3s ease-in-out;
+  }
+  .hero-btn:hover{
+    background-color:#023047;
+  }
+  .hero-btn::before{
+    content:'\2192';
+    position:absolute;
+    color:#fff;
+    left:12.5rem;
+    font-size:25px;
+    transition: 0.3s ease-in-out;
+  }
+  .hero-btn:hover::before{
+    left:13rem;
+  }
 
                 /* <--img content --> */
 
