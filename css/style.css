@@ -373,3 +373,72 @@ span.ux{
 .btn-about:hover::before{
     margin-left: 2.5rem;
 }
+
+/* Testimonial section start here  */
+
+.testimonial{
+    padding: 160px 0;
+    background-color: #FAFAFA;
+}
+.testimonial-title{
+    margin: 0 0 80px;
+    text-align: center;
+}
+.testimonial-title h1{
+    font-size: 49px;
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+    letter-spacing: 0.3px;
+}
+.testimonial .row{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.review{
+    padding-left: 30px;
+}
+.job-title h3{
+    font-size: 39.5px;
+    margin: 28px 0 12px;
+    letter-spacing: 2px;
+    padding-right: 15px;
+}
+.review-icon{
+    margin: 40px 0 0;
+}
+.review-icon img{
+    margin: 1px;
+}
+.review-text{
+    margin: 20px 0 0;
+}
+span.review-text{
+    font-size: 16px;
+    color: #373752;
+}
+.review{
+    padding: 48px 56px;
+    background-color: #ffffff;
+}
+p.review-para{
+    font-size: 18px;
+    font-family: 'poppins',sans-serif;
+    letter-spacing: .7px;
+    line-height: 30px;
+    color: #28283a;
+    padding-bottom: 15px;
+}
+.review-signature{
+    margin: 24px 0 0;
+}
+.review-signature h4{
+    font-size: 16px;
+    font-family: 'poppins',sans-serif;
+    color: #28283a;
+}
+.review-signature span{
+    font-size: 14px;
+    font-family: 'poppins',sans-serif;
+    color: #71717A;
+}

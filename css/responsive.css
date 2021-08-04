@@ -73,6 +73,10 @@
     .jamstack-title h1{
         font-size: 35px;
     }
+    .testimonial-title h1{
+        font-size: 35px;
+    }
+   
 }
 @media only screen and (max-width: 650px){
     .headless-btn{
@@ -111,5 +115,21 @@
     .btn-getStart:hover::before{
         margin-left: 9rem;
     }
+    .testimonial-title h1{
+        font-size: 25px;
+    }
+    .job-title h3{
+        font-size: 20px !important;
+    }
     
+}
+
+/* testimonial section  */
+@media only screen and (max-width: 1025px){
+    .testimonial .row{
+        grid-template-columns: auto;
+    }
+    .job-title h3{
+        font-size: 28px;
+    }
 }
