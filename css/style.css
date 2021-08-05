@@ -22,8 +22,9 @@ a{
     color: #fff;
 }
 header{
+    width: 100%;
     height: 70px;
-    position: sticky;
+    position: fixed;
     top: 0;
     background: #ffffffef;
     z-index: 999;
