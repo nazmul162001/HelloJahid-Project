@@ -5,7 +5,9 @@
     box-sizing: border-box;
     outline: none;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .site__wrapper {
     width: 100%;
 }
@@ -28,6 +30,7 @@ header{
     top: 0;
     background: #ffffffef;
     z-index: 999;
+    backdrop-filter: blur(4px);
 }
 header .row {
     display: flex;
@@ -84,6 +87,7 @@ span img{
 .build__area{
    display: grid;
    grid-template-columns: 1fr 370px;
+   padding-top: 90px;
 }
                 /* <-- content area --> */
 .content-area {
@@ -488,13 +492,13 @@ p.review-para{
 /* footer section start here  */
 
 footer{
-    padding: 64px 0;
+    padding: 64px 0 0;
 }
 .contact-us{
     width: 768px;
     height: 646px;
     margin: 0 auto;
-    padding: 56px 0;
+    padding: 65px 0 0;
 }
 .form-title{
     text-align: center;
