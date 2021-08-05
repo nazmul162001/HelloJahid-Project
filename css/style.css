@@ -23,6 +23,10 @@ a{
 }
 header{
     height: 70px;
+    position: sticky;
+    top: 0;
+    background: #ffffffef;
+    z-index: 999;
 }
 header .row {
     display: flex;
