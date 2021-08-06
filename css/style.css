@@ -23,6 +23,33 @@ a{
     text-decoration: none;
     color: #fff;
 }
+:root {
+    para-color: #71717A;
+}
+@font-face {
+    font-family:'poppins';
+    src: url(../fonts/poppins/1.woff2);
+}
+@font-face {
+    font-family:'poppins2';
+    src: url(../fonts/poppins/2.woff2);
+}
+@font-face {
+    font-family:'poppins3';
+    src: url(../fonts/poppins/3.woff2);
+}
+@font-face {
+    font-family:'roboto';
+    src: url(../fonts/roboto/1.woff2);
+}
+@font-face {
+    font-family:'roboto2';
+    src: url(../fonts/roboto/2.woff2);
+}
+@font-face {
+    font-family:'roboto3';
+    src: url(../fonts/roboto/3.woff2);
+}
 header{
     width: 100%;
     height: 70px;
@@ -50,8 +77,9 @@ header .row {
     transition: .3s ease-in-out;
 }
 .col-left img:hover{
-    width: 7.3rem;
-    height: 2.8rem;
+    /* width: 7.3rem;
+    height: 2.8rem; */
+    transform: scale(1.1);
 }
 .col-left img a{
     display: block;
@@ -67,7 +95,7 @@ header .row {
     list-style-type: none;
 }
 .col-right a{
-    font-size: 22px;
+    font-size: 18px;
     color: #000;
     padding: 8px;
 }
@@ -96,9 +124,10 @@ span img{
 }
 
 .hero-title h1{
-    font-size: 4.2rem;
+    font-size: 3.7rem;
     line-height: 4rem;
-    letter-spacing: .3rem;
+    letter-spacing: .1rem;
+    font-family: 'roboto3';
     font-weight: 900;
 }
 .hero-title{
@@ -111,7 +140,7 @@ p.hero-para{
     color: rgb(30,41,59);
     padding: 20px 0;
 }
-/* a.button{
+.hero a.button{
     padding: 15px 55px 15px 15px;
     background-color: rgb(43,158,188);
     color: #fff;
@@ -125,25 +154,25 @@ a.button:hover{
     margin: 32px 0;
     position: relative;
 }
-.hero-btn::after{
+.hero-btn a::after{
     content: '\2192';
     position: absolute;
-    left: 190px;
     color: #fff;
     font-weight: 700;
+    padding-left: 10px;
+    transition: 0.3s ease-in-out;
     font-size: 25px;
-    top: -6px;
+    top: -7px;
 }
-.hero-btn:hover::after{
-    left: 200px;
-    transition: 0.5s ease-in-out;
-} */
+.hero-btn a:hover::after{
+    transform: translate(10px);
+    
+}
 
 
-.hero-btn a{
+/* .hero-btn a{
     text-decoration:none;
     color:#fff;
-    display:block;
   }
   .hero-btn{
     position:relative;
@@ -169,8 +198,9 @@ a.button:hover{
     transition: 0.3s ease-in-out;
   }
   .hero-btn:hover::before{
-    left:13rem;
-  }
+    transform: translate(10px);
+  } */
+  
 
                 /* <--img content --> */
 
@@ -276,6 +306,7 @@ span.ux{
     margin-bottom: 15px;
     color: #000000;
     letter-spacing: 0.4px;
+    font-family: 'roboto2';
 }
 .jamstack-title h3{
     font-size: 18px;
@@ -327,7 +358,8 @@ span.ux{
 .headless-title  h1{
     font-size: 49px;
     font-weight: 900;
-    letter-spacing: 2px;
+    letter-spacing: .8px;
+    font-family: 'roboto3';
 }
 /* .btn-getStart a{
     padding: 14px 60px 14px 15px;
@@ -393,10 +425,11 @@ span.ux{
     font-size: 25px;
 }
 .btn-getStart:hover::before{
-    margin-left: 6.5rem;
+    /* margin-left: 6.5rem; */
+    transform: translate(10px);
 }
 .btn-about{
-    margin: 15px 15px 15px 60px;
+    margin: 15px 15px 15px;
     width: 155px;
     height: 45px;
     cursor: pointer;
@@ -417,7 +450,7 @@ span.ux{
     transition: .3s ease-in-out;
 }
 .btn-about:hover::before{
-    margin-left: 2.5rem;
+    transform: translate(10px);
 }
 
 /* Testimonial section start here  */
@@ -431,9 +464,9 @@ span.ux{
     text-align: center;
 }
 .testimonial-title h1{
-    font-size: 49px;
+    font-size: 49.5px;
     font-weight: 600;
-    font-family: 'poppins',sans-serif;
+    font-family: 'roboto2';
     letter-spacing: 0.3px;
 }
 .testimonial .row{
@@ -449,6 +482,7 @@ span.ux{
     margin: 28px 0 12px;
     letter-spacing: 2px;
     padding-right: 15px;
+    font-family: 'roboto2';
 }
 .review-icon{
     margin: 40px 0 0;
@@ -469,10 +503,10 @@ span.review-text{
 }
 p.review-para{
     font-size: 18px;
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins2';
     letter-spacing: .7px;
     line-height: 30px;
-    color: #28283a;
+    color: #393957;
     padding-bottom: 15px;
 }
 .review-signature{
